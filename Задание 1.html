@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+
+    </head>
+    <body>
+        <script>
+            // С помощью Declaration
+            function getDifference(){
+                let x = 0.11;
+                let y = 0.36;
+                let xy = 0.30;
+                let mass = 178;
+                let massX;
+                let massY;
+                let result;
+                // решение
+                massX = ((xy - y) * mass) / (x - y);
+                massY = mass - massX;
+                result = (massY - massX);
+                alert(result);
+            }
+            getDifference();
+        </script>
+    </body>
+</html>
